@@ -1,0 +1,138 @@
+.navbar-brand {
+    color: #8488AC;
+}
+
+.navbar {
+    background-color: #EEF0EF !important;
+    border-bottom: 3px solid #CCCCCC ; 
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-link {
+    color: #8488AC !important;
+}
+
+.header-link:hover {
+    color: black !important;
+}
+
+.header-link.active {
+    color: black !important;
+    padding-bottom: 0px;
+    border-bottom: 2px solid black;
+}
+
+section  {
+    height: 82vh;
+}
+
+.hero {
+    background-image: url("../img/hero/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-h1 {
+    font-weight: 700;
+    color: #ADD8E6;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-h2 {
+    font-weight: 600;
+    color: #CAE9F5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-h3 {
+    font-weight: 500;
+    color: #ddecef;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-header {
+    color: #8488AC;
+}
+
+.card-head {
+    border: 4px solid #9ABABA;
+    border-radius: 15px;
+    min-width: 200px;
+}
+
+.card-head img {
+    width: 90px !important;
+    height: 90px !important;
+}
+
+.card-title {
+    color: #003654;
+}
+
+.product {
+    background-image: url("../img/product/background-old.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-outline-secondary {
+    --bs-btn-color: #8488AC;
+    --bs-btn-border-color: #9ABABA;
+    --bs-btn-hover-bg: #8488AC;
+    --bs-btn-hover-boder-color: #9ABABA;
+}
+
+.icon-text {
+    font-weight: 500;
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+.gps {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #EEF0EF;
+}
+
+.footer-link {
+    color: black;
+    font-weight: 500;
+}
+
+.footer-link:hover {
+    color: #8488AC;
+}
+
+.copyright {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-h1 {
+        font-size: 4.4vw;
+    }
+
+    .hero-h2 {
+        font-size: 3.4vw;
+    }
+
+    .hero-h3 {
+        font-size: 3.125vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section:not(.hero) {
+        height: auto;
+    }
+
+    .carousel-item img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
